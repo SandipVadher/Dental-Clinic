@@ -487,7 +487,8 @@ header .navbar-toggler i {
   padding: 30px;
   text-align: center;
 }
-.services .servic-row .servcover img {
+.services .servic-row .servcover img,
+.services .servic-row .servcover {
   margin-bottom: 20px;
   border-radius: 3px;
 }
@@ -800,4 +801,168 @@ footer .tags ul li {
 .site-logo {
   display: inline-block;
   width: 125px;
+}
+
+.service-icon {
+  font-size: 64px;
+  color: #2463d8;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  margin-top: -10px;
+}
+
+/*--------------------
+  Footer top section
+---------------------*/
+
+.footer-top-section {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  background: #4582e0;
+}
+
+.footer-widget .fw-title {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 45px;
+  font-weight: 400;
+  padding-top: 15px;
+}
+
+.footer-widget .fw-about {
+  padding-top: 20px;
+}
+
+.footer-widget .fw-about img {
+  margin-bottom: 33px;
+}
+
+.footer-widget .fw-about p {
+  color: #fff;
+  opacity: 0.48;
+}
+
+.footer-widget .fw-links {
+  padding-top: 25px;
+}
+
+.footer-widget ul {
+  list-style: none;
+}
+
+.footer-widget ul li a {
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.48;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.footer-widget ul li a:hover {
+  color: #0089d1;
+}
+
+.footer-widget .fw-social {
+  padding-top: 40px;
+}
+
+.footer-widget .fw-social a {
+  color: #fff;
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 14px;
+}
+
+.footer-widget .fw-timetable {
+  border: 1px solid #fff;
+  padding: 25px;
+  max-width: 400px;
+  margin-left: auto;
+  position: relative;
+  right: -23px;
+}
+
+.footer-widget .fw-timetable .fw-title {
+  padding-top: 0;
+  font-size: 30px;
+}
+.days {
+  font-size: 20px;
+  color: white;
+  margin-top: -25px;
+  margin-left: 21px;
+  margin-bottom: 15px;
+}
+
+.footer-widget .fw-timetable .timetable-content {
+  padding: 0 20px;
+}
+
+.footer-widget .fw-timetable table {
+  width: 100%;
+  padding-left: 17px;
+}
+
+.footer-widget .fw-timetable table tr:hover td {
+  color: #0089d1;
+}
+
+.footer-widget .fw-timetable table td {
+  color: #fff;
+  opacity: 0.48;
+  font-size: 14px;
+  padding: 11px 0;
+}
+
+.footer-widget .fw-timetable table td:nth-child(2) {
+  text-align: right;
+}
+
+/*--------------------
+  Footer section
+---------------------*/
+
+.footer-section {
+  background: #0d0d0d;
+  overflow: hidden;
+  padding: 22px 0px;
+}
+
+.footer-menu {
+  list-style: none;
+  float: right;
+}
+
+.footer-menu li {
+  display: inline;
+}
+
+.footer-menu li a {
+  display: inline-block;
+  font-size: 14px;
+  color: #2d2d2d;
+  margin-left: 40px;
+}
+
+.footer-menu li a:hover {
+  color: #0089d1;
+}
+
+.copyright {
+  float: left;
+  color: #343434;
+  font-size: 12px;
+  padding-top: 4px;
+}
+
+.copyright a {
+  color: #0089d1;
+  font-weight: 600;
+  opacity: 0.5;
+}
+
+.set-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
 }

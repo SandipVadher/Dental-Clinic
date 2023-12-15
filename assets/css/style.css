@@ -861,7 +861,8 @@ footer .tags ul li {
 .footer-top-section {
   padding-top: 60px;
   padding-bottom: 80px;
-  background: #4582e0;
+  /* background: #4582e0; */
+  background: url("../images/footer-bg.jpg");
 }
 
 .footer-widget .fw-title {
@@ -917,7 +918,7 @@ footer .tags ul li {
 }
 
 .footer-widget .fw-timetable {
-  border: 1px solid #fff;
+  border: 1px solid #2faadf;
   padding: 25px;
   max-width: 400px;
   margin-left: auto;
@@ -1012,4 +1013,47 @@ footer .tags ul li {
 
 .nav-container-row {
   min-height: 98px;
+}
+
+@media (max-width: 1215px) {
+  .footer-widget .fw-timetable {
+    right: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .footer-widget {
+    margin-bottom: 30px;
+  }
+  .footer-menu li a {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .footer-widget {
+    margin-bottom: 30px;
+  }
+  .footer-widget .fw-timetable {
+    margin-left: 0;
+  }
+  .footer-section {
+    text-align: center;
+  }
+  .footer-menu {
+    float: none;
+  }
+  .footer-menu li:first-child a {
+    margin-left: 0;
+  }
+  .copyright {
+    float: none;
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .footer-widget .fw-timetable .timetable-content {
+    padding: 0;
+  }
 }

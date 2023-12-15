@@ -411,18 +411,28 @@ header .navbar-toggler i {
   .slider .carousel-caption {
     bottom: 70px;
   }
+  .slider .carousel-caption p {
+    width: 100% !important;
+  }
 }
 @media screen and (max-width: 1130px) {
-  .slider .carousel-caption {
-    bottom: 70px;
-  }
   .slider .carousel-caption h3 {
     font-size: 2rem !important;
   }
   .slider .carousel-caption .container {
     padding: 0px;
   }
+  .slider .carousel-caption p {
+    width: 80% !important;
+  }
 }
+
+@media screen and (max-width: 1500px) {
+  .slider .carousel-caption {
+    top: 0;
+  }
+}
+
 .slider .carousel-caption h3 {
   width: fit-content;
   text-align: left;
@@ -754,6 +764,10 @@ footer .tags ul li {
   .about-coo {
     padding: 30px 10px;
   }
+  .booking-container {
+    position: relative;
+    top: 5px;
+  }
 }
 .about-coo .about-row .about-img {
   text-align: center;
@@ -767,6 +781,9 @@ footer .tags ul li {
 @media only screen and (max-width: 767px) {
   .about-coo .about-row .about-img img {
     width: 100%;
+  }
+  .booking-container {
+    z-index: -1;
   }
 }
 @media only screen and (max-width: 476px) {
@@ -804,11 +821,37 @@ footer .tags ul li {
 }
 
 .service-icon {
-  font-size: 64px;
+  /* font-size: 64px;
   color: #2463d8;
   margin-bottom: 10px;
   border-radius: 3px;
+  margin-top: -10px; */
+  margin-bottom: 10px;
   margin-top: -10px;
+  width: 98px;
+  height: 98px;
+  background: #fff;
+  font-size: 48px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #2463d8;
+  float: none;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.servcover:hover .service-icon {
+  color: white;
+  background: #4582e0;
 }
 
 /*--------------------
@@ -965,4 +1008,8 @@ footer .tags ul li {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
+}
+
+.nav-container-row {
+  min-height: 98px;
 }

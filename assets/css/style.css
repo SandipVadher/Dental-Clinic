@@ -1072,3 +1072,21 @@ footer .tags ul li {
   color: #2d2d2d;
   line-height: 2;
 }
+
+.facts-section {
+  padding: 74px 0;
+  background: url("/assets/images/facts-bg.jpg");
+}
+
+.facts-section .container {
+  margin-bottom: -15px;
+}
+.facts-section .fact i {
+  font-size: 83px;
+  color: #2463d8;
+}
+
+.facts-section .fact p,
+.facts-section .fact h2 {
+  color: #fff;
+}

@@ -1030,7 +1030,7 @@ footer .tags ul li {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .footer-widget {
     margin-bottom: 30px;
   }
@@ -1049,6 +1049,10 @@ footer .tags ul li {
   .copyright {
     float: none;
     padding-top: 20px;
+  }
+
+  .ci-image {
+    width: 7rem !important;
   }
 }
 

@@ -1057,3 +1057,14 @@ footer .tags ul li {
     padding: 0;
   }
 }
+
+.ci-image {
+  width: 79px;
+  border-radius: 50%;
+  border: 3px solid #0089d1;
+}
+
+.ci-content p {
+  color: #2d2d2d;
+  line-height: 2;
+}

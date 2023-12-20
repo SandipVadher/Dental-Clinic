@@ -326,6 +326,11 @@ header {
   z-index: 999;
   width: 100%;
 }
+
+.contact-header {
+  position: static;
+}
+
 @media screen and (max-width: 575px) {
   header .head-row {
     padding: 0px;
@@ -388,6 +393,28 @@ header .navbar-toggler {
 header .navbar-toggler i {
   font-size: 2rem;
   margin-top: 5px;
+}
+
+.header-info {
+  padding-top: 46px;
+  padding-bottom: 7px;
+  border-top: 1px solid #dce1e5;
+  background: #eff2f4;
+}
+.hi-item {
+  margin-bottom: 30px;
+}
+.hi-item .hs-icon {
+  float: left;
+  margin-right: 22px;
+}
+.hi-item .hi-content {
+  padding-left: 40px;
+}
+.hi-item .hi-content p {
+  font-size: 16px;
+  color: #8e8e8e;
+  margin-bottom: 0;
 }
 
 .slider {

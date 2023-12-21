@@ -975,7 +975,8 @@ footer .tags ul li {
 }
 
 .footer-widget .fw-timetable table tr:hover td {
-  color: #0089d1;
+  /* color: #0089d1; */
+  color: whitesmoke;
 }
 
 .footer-widget .fw-timetable table td {

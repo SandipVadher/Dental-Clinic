@@ -835,9 +835,12 @@ footer .tags ul li {
   width: 50%;
   float: left;
   font-weight: 400;
+  display: flex;
+  gap: 5px;
 }
 .about-coo .about-row .about-text .about-featur ul li i {
   margin-right: 5px;
+  margin-top: 4px;
 }
 
 /*# sourceMappingURL=style.css.map */

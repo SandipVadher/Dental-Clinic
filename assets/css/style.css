@@ -832,8 +832,8 @@ footer .tags ul li {
 }
 .about-coo .about-row .about-text .about-featur ul li {
   padding: 10px;
-  width: 50%;
-  float: left;
+  /* width: 50%;
+  float: left; */
   font-weight: 400;
   display: flex;
   gap: 5px;
@@ -963,6 +963,7 @@ footer .tags ul li {
   padding-top: 0;
   font-size: 30px;
 }
+
 .days {
   font-size: 20px;
   color: inherit;
@@ -1051,6 +1052,13 @@ footer .tags ul li {
 @media (max-width: 1215px) {
   .footer-widget .fw-timetable {
     right: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-coo .about-row .about-text .about-featur ul li {
+    width: 50%;
+    float: left;
   }
 }
 

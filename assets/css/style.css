@@ -441,7 +441,8 @@ header .navbar-toggler i {
 }
 @media screen and (max-width: 1130px) {
   .slider .carousel-caption {
-    bottom: 70px;
+    /* bottom: 70px; */
+    bottom: 30px;
   }
   .slider .carousel-caption h3 {
     font-size: 2rem !important;

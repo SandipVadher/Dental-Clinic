@@ -478,7 +478,7 @@ header .navbar-toggler i {
   background-color: rgba(6, 86, 194, 0.8);
 }
 
-.booking-container {
+/* .booking-container {
   position: absolute;
   margin-top: -40px;
   z-index: 999;
@@ -495,12 +495,12 @@ header .navbar-toggler i {
 }
 .booking-container .booking-box button {
   box-shadow: none;
-}
+} */
 
 .services {
   background-color: #f7f7f7;
   padding: 50px;
-  padding-top: 160px;
+  /* padding-top: 160px; */
 }
 @media screen and (max-width: 940px) {
   .services {

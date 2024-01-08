@@ -1,4 +1,0 @@
-create offer section
-create review section
-create diffrent pages for diffrent service
-remove team members 

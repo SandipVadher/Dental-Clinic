@@ -59,4 +59,103 @@ $(document).ready(function () {
   $(this).addClass("active");
 });
 
-document.getElementById("");
+const servArr = [
+  "home-root-canal",
+  "home-cosmetic-dentistry",
+  "home-crown",
+  "home-denture",
+  "home-implants",
+  "home-braces",
+  "serv-root-canal",
+  "serv-cosmetic-dentistry",
+  "serv-crown",
+  "serv-denture",
+  "serv-implants",
+  "serv-braces",
+];
+
+$(document).ready(function () {
+  servArr.forEach((serv) => {
+    console.log(serv);
+    $(`#${serv}`).on("click", () => {
+      window.location.href =
+        window.location.href.slice(
+          0,
+          window.location.href.lastIndexOf("/") + 1
+        ) +
+        "i-service.html#" +
+        serv.slice(serv.indexOf("-") + 1);
+    });
+  });
+  // $("#home-root-canal").on("click", () => {
+  //   window.location.href =
+  //     window.location.href.slice(0, window.location.href.lastIndexOf("/") + 1) +
+  //     "i-service.html#root-canal";
+  // });
+
+  // $("#home-cosmetic-dentistry").on("click", () => {
+  //   window.location.href =
+  //     window.location.href.slice(0, window.location.href.lastIndexOf("/") + 1) +
+  //     "i-service.html#cosmetic-dentistry";
+  // });
+
+  // $("#home-crown").on("click", () => {
+  //   window.location.href =
+  //     window.location.href.slice(0, window.location.href.lastIndexOf("/") + 1) +
+  //     "i-service.html#crowns-bridges";
+  // });
+
+  // $("#home-denture").on("click", () => {
+  //   window.location.href =
+  //     window.location.href.slice(0, window.location.href.lastIndexOf("/") + 1) +
+  //     "i-service.html#denture";
+  // });
+
+  // $("#home-implants").on("click", () => {
+  //   window.location.href =
+  //     window.location.href.slice(0, window.location.href.lastIndexOf("/") + 1) +
+  //     "i-service.html#implants";
+  // });
+
+  // $("#home-braces").on("click", () => {
+  //   window.location.href =
+  //     window.location.href.slice(0, window.location.href.lastIndexOf("/") + 1) +
+  //     "i-service.html#braces";
+  // });
+
+  // $("#serv-root-canal").on("click", () => {
+  //   window.location.href =
+  //     window.location.href.slice(0, window.location.href.lastIndexOf("/") + 1) +
+  //     "i-service.html#root-canal";
+  // });
+
+  // $("#serv-cosmetic-dentistry").on("click", () => {
+  //   window.location.href =
+  //     window.location.href.slice(0, window.location.href.lastIndexOf("/") + 1) +
+  //     "i-service.html#cosmetic-dentistry";
+  // });
+
+  // $("#serv-crown").on("click", () => {
+  //   window.location.href =
+  //     window.location.href.slice(0, window.location.href.lastIndexOf("/") + 1) +
+  //     "i-service.html#crowns-bridges";
+  // });
+
+  // $("#serv-denture").on("click", () => {
+  //   window.location.href =
+  //     window.location.href.slice(0, window.location.href.lastIndexOf("/") + 1) +
+  //     "i-service.html#denture";
+  // });
+
+  // $("#serv-implants").on("click", () => {
+  //   window.location.href =
+  //     window.location.href.slice(0, window.location.href.lastIndexOf("/") + 1) +
+  //     "i-service.html#implants";
+  // });
+
+  // $("#serv-braces").on("click", () => {
+  //   window.location.href =
+  //     window.location.href.slice(0, window.location.href.lastIndexOf("/") + 1) +
+  //     "i-service.html#braces";
+  // });
+});

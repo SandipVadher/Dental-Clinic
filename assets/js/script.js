@@ -76,15 +76,10 @@ const servArr = [
 
 $(document).ready(function () {
   servArr.forEach((serv) => {
-    console.log(serv);
     $(`#${serv}`).on("click", () => {
-      window.location.href =
-        window.location.href.slice(
-          0,
-          window.location.href.lastIndexOf("/") + 1
-        ) +
-        "i-service.html#" +
-        serv.slice(serv.indexOf("-") + 1);
+      location.href =
+        location.href.slice(0, location.href.lastIndexOf("/") + 1) +
+        `services/${serv.slice(serv.indexOf("-") + 1)}.html`;
     });
   });
 });
